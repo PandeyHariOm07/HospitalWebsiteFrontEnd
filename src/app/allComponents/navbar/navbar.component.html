@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg navbg">
+    <div class="container-fluid">
+      <a class="brand navbar-brand" [routerLink]="['']"  [routerLinkActiveOptions]="{exact: true}" routerLinkActive="router-link-active" >Dummy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav" style="margin-left: 3%;">
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['ViewDoctor']" routerLinkActive="router-link-active" >View Doctors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['Specialization']" routerLinkActive="router-link-active" >View Specialization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"[routerLink]="['TodaySurgery']" routerLinkActive="router-link-active" >View Today's Surgery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" [routerLink]="['AddingDoctor']" routerLinkActive="router-link-active" >Add Doctor</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link"[routerLink]="['Contact']" routerLinkActive="router-link-active">Contact Us</a>
+          </li> -->
+        </ul>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="nav-link" href="#"><i style="margin-right: 5px;" class="fa-solid fa-user-plus"></i> Sign Up</a></li>
+        <li><a class="nav-link" href="#"><i style="margin-right: 5px;" class="fa-solid fa-right-to-bracket"></i> Login</a></li>
+      </ul>
+      <div>
+      </div>
+    </div>
+  </nav>

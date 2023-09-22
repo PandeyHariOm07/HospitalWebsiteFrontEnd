@@ -1,0 +1,33 @@
+
+.footer {
+    background-color: #2724AC;
+    opacity: 78%;
+    color : rgb(255, 255, 255);
+    position: relative;
+            bottom: 0;
+            width: 100%;
+  }
+  
+  .footer h3,
+  .footer p,
+  .footer ul {
+    text-align: center;
+  }
+  
+  .footer ul li {
+    list-style: none; 
+    margin-bottom: 10px;
+  }
+  i{
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      text-align: center;
+    }
+    .footer .col-md-6 {
+      margin-bottom: 20px;
+    }
+  }
+  
